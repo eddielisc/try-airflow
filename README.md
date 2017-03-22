@@ -14,7 +14,7 @@ Airflow 1.8, CeleryExecutor, Redis, Celery Flower
 
 2) keep versioning for dag id and update the version number if there is any changes
 
-3) keep in mind to set start_date on dag in the future
+3) keep in mind to set start_date as future date time
 
 4) set `max_active_runs_per_dag = 1`
 
