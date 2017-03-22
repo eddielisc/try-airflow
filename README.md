@@ -10,13 +10,9 @@ Airflow 1.8, CeleryExecutor, Redis, Celery Flower
 
 ### important note
 
-1) never use datetime.now
+1) never use datetime.now, keep use fix datetime anytime
 
-2) keep versioning for dag id 
-
-dag = DAG('sc_aws_job_with_conf_v1', default_args=default_args, 
-schedule_interval=None)
-
+2) keep versioning for dag id and update the version number if there is any changes
 
 ### plugin
 
