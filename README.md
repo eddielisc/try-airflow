@@ -14,8 +14,24 @@ Airflow 1.8, CeleryExecutor, Redis, Celery Flower
 
 2) keep versioning for dag id and update the version number if there is any changes
 
+3) always set start_date on dag in the future
+
+4) set max_active_runs_per_dag = 1 
+
+5) find ways to sync the dags and config file of master and workers (s3/ git)
 ### plugin
 
 api plugin
 
 https://github.com/teamclairvoyant/airflow-rest-api-plugin
+
+### reference
+
+https://deepumohan.com/tech/setting-up-apache-airflow-on-aws-ec2-instance/
+
+
+https://stlong0521.github.io/20161023%20-%20Airflow.html
+
+
+http://site.clairvoyantsoft.com/installing-and-configuring-apache-airflow/
+
