@@ -16,7 +16,7 @@ Airflow 1.8, CeleryExecutor, Redis, Celery Flower
 
 3) keep in mind to set start_date on dag in the future
 
-4) set max_active_runs_per_dag = 1 
+4) set `max_active_runs_per_dag = 1`
 
 5) find ways to sync the dags and config file of master and workers (s3/ git)
 
