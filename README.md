@@ -38,3 +38,5 @@ https://stlong0521.github.io/20161023%20-%20Airflow.html
 
 http://site.clairvoyantsoft.com/installing-and-configuring-apache-airflow/
 
+
+http://site.clairvoyantsoft.com/wp-content/uploads/2016/12/GuideToApacheAirflow.pdf
